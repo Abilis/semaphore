@@ -30,6 +30,7 @@ public class Semaphore {
         this.calculateAmountMinuteInTenMinute();
         this.calculateColor();
         this.writeResult();
+        Util.closeQuitely(reader);
     }
 
     private void writeGreatingMessage() {
